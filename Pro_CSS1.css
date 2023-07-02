@@ -1,0 +1,67 @@
+
+*{
+    text-decoration: none;
+}
+html{
+
+    background: url("https://phonoteka.org/uploads/posts/2021-03/thumbs/1616366498_53-p-fon-dlya-portreta-53.jpg") no-repeat burlywood  ;
+    background-size: cover;
+}
+
+#header{
+    background-color: aqua;
+    color: #1e27d2;
+}
+
+.style {
+    color: #5eff00;
+}
+.py{
+    background: burlywood;
+    color: #1e27d2;
+    font-size: 18px;
+}
+p i{
+    color: crimson;
+}
+p#example:first-letter {
+    color: #188633;
+}
+
+
+p:active{background: blue ;}
+
+#example{
+    font-size: 24px;
+}
+
+p#example:first-line{
+    color: darkgoldenrod;
+}
+.href{
+    color: deeppink;
+}
+.href:hover{
+    color: #188633;
+}
+.href:active{
+    color: aqua;
+}
+.href:visited{
+    color: darkgoldenrod;
+}
+p{
+ text-indent: 1.1em;
+}
+#textStyles{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: Comic Sans MS ;
+    text-align: left;
+    text-transform: uppercase ;
+    word-spacing: 10px ;
+    letter-spacing: 10px;
+    line-height: 200%;
+
+
+ }
