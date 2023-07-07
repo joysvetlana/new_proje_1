@@ -1,0 +1,84 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body {
+    width: 100%;
+    height: 100%;
+    color: #333;
+    background:#f7f7f7;
+    font-size:1em ;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 135%;
+}
+a{
+    color: #d25e33 ;
+    text-decoration: none;
+    -moz-transition: all.6s ease;
+    -webkit-transition:all.6s ease;
+    -ms-transition: all.6s ease;
+}
+a:hover{
+    color: #1e27d2;
+    text-decoration: none;
+    -moz-transition: all.6s ease;
+    -webkit-transition:all.6s ease;
+    -ms-transition: all.6s ease;
+}
+a:active{color: #72d278}
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+/* seleclion block*/
+
+::selection{background:#d25e33;color: white;}
+::-moz-selection{background:#d25e33;color: white;}
+::-webkit-selection{background:#d25e33;color: white;}
+::-ms-selection{background:#d25e33;color: white;}
+
+header, footer {
+    width: 98%;
+    background-color: white;
+
+}
+header{
+    border-bottom: 2px solid silver;
+    padding: 1%;
+}
+#logo{
+    font-size: 2em;
+    font-family: "Comic Sans MS", sans-serif;
+    color: silver;
+
+}
+.contact{
+    font-size: 1.5em;
+    font-family: "Comic Sans MS",sans-serif;
+    margin-left: 20px;
+}
+input[type=text].fiend{
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left:20px ;
+}
+input[type=text].fiend:focus{
+    border: 2px solid #d25e33;
+}
+
+footer{
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    padding: 1%;
+    padding-bottom: 2%;
+}
