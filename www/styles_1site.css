@@ -4,6 +4,7 @@
     padding: 0;
     outline: none;
 }
+html{height: 100%}
 body {
     width: 100%;
     height: 100%;
@@ -33,12 +34,17 @@ img{
     height: auto;
     width: auto\9;
 }
-.right{
-    float: right;
+hr{
+    display: block;
+    border:0;
+    height: auto;
+    width: auto\9;
+    border-top: 1px solid #ccc;
+
 }
-.left{
-    float: left;
-}
+.right{float: right;}
+.left{float: left;}
+.clear{clear: both}
 /* seleclion block*/
 
 ::selection{background:#d25e33;color: white;}
@@ -49,6 +55,7 @@ img{
 header, footer {
     width: 98%;
     background-color: white;
+    float: left;
 
 }
 header{
@@ -75,10 +82,104 @@ input[type=text].fiend{
 input[type=text].fiend:focus{
     border: 2px solid #d25e33;
 }
+#menu{
+    color: #666 ;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1.7em;
+}
+#menu hr{
+    width: 500px;
+    max-width: 100%;
+    margin-top:5px ;
+    margin-bottom: 10px;
+}
+#menuHrefs a{
+    padding: 5px 10px;
+    border-radius: 5px ;
+    margin-right: 5px ;
+    color: #626262;
+}
+#menuHrefs a:hover{
+    background-color: rgba(107,108,100,0.13);
+}
+/*Основные стили для зайта */
+#wrapper{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+#wrapper #articles{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+}
+#wrapper #articles article{
+    float: left;
+    width: 31.33333%;
+    border: 1px solid silver;
+    box-sizing: border-box ;
+    border-radius: 5px;
+    background-color: #fafafa ;
+    margin-right: 2%;
+    min-height: 400px;
 
+}
+#wrapper #articles article img{
+    width: 100%;
+    height: 200px ;
+    border-radius: 5px 5px;
+    border-bottom: 1px solid silver;
+    margin-bottom: 10px;
+}
+#wrapper #articles article h2{
+    width: 90%;
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: 1.7em;
+    color: #4a4a4a ;
+}
+#wrapper #articles article p{
+    width: 80%;
+    margin-left: 10% ;
+    text-indent: 1em;
+}
+#wrapper #articles article a{
+    padding: 10px;
+    background-color: #d25e33;
+    margin-left: 5%;
+    border-radius: 10px ;
+    color: white;
+    margin-top: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+#wrapper #articles article a:hover{
+    background-color: #188633;
+}
+
+
+
+/*Стили для footer*/
 footer{
     border-top: 2px solid silver;
     margin-top: 10px;
     padding: 1%;
     padding-bottom: 2%;
+}
+
+footer img{
+    width: 6%;
+    float: left;
+    margin-right: 10px;
+}
+#page_wrap:after{
+    content: "";
+    display: block;
+}
+footer, #page_wrap:after{
+    height: 10px;
+}
+#page_wrap{
+    min-height: 94%;
+    margin-bottom: -10px;
 }
