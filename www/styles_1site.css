@@ -153,12 +153,64 @@ input[type=text].fiend:focus{
     float: left;
     margin-bottom: 10px;
 }
-#wrapper #articles article a:hover{
-    background-color: #188633;
+
+#wrapper #articles article a:hover{background-color: #188633;}
+/* Стили для страницы about_us */
+
+#about_us{
+    width: 60%;
+    float:left ;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+
+}
+#columRight{
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+    padding: 1%;
+
 }
 
+/*Центральный блок нашего сайта*/
 
+#main_soc_block{
+    width: 100%;
+    padding: 2% 0;
+    border-top: 2px solid silver ;
+    border-bottom: 2px solid silver;
+    margin: 20px 0;
+    float: left;
+    background: url("img/soc_block_background.png") repeat-x center 0 ;
+    height: 200px;
+}
+#main_soc_block_in{
+    text-align: center;
+    padding: 1%;
+    color: white;
+    height: 100px ;
+    background-color: cadetblue;
+    border:1px solid silver ;
+    border-radius:7px ;
+    width: 500px;
 
+}
+#main_soc_block_in a {
+    float: left;
+    padding: 5px 10px;
+    background-color: darkgoldenrod;
+    border-radius: 6px;
+    color: white ;
+    margin-left: 35% ;
+    margin-top:15px;
+}
 /*Стили для footer*/
 footer{
     border-top: 2px solid silver;
