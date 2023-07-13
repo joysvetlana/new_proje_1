@@ -178,8 +178,56 @@ input[type=text].fiend:focus{
     padding: 1%;
 
 }
+/* стили для формы */
+form{
+    width: 60%;
+    margin-left: 20%;
+    float: left;
+}
+form label{
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input:focus, form textarea:focus{
+    border: 2px solid #d25e33;
+}
+form input {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    float: left;
+    clear: both;
+    width:40%;
+    margin-bottom:10px ;
+}
+form textarea{
+    width:60% ;
+    float: left;
+    clear: both;
+    background-color: white;
+    border: 2px solid silver;
+    padding:10px ;
+    border-radius: 5px;
+    font-size: 1.7em ;
 
-/*Центральный блок нашего сайта*/
+}
+form #send {
+    float: left;
+    padding: 10px;
+    background-color:#FC5C6D;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+
+}
+form #send:hover{
+    background-color: #188633;
+}
+
+    /*Центральный блок нашего сайта*/
 
 #main_soc_block{
     width: 100%;
